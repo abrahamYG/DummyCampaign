@@ -27,19 +27,23 @@
 		{
 			"name":"Main Mod",
 			"description":"Launcher for the campaign",
-			"file": "mods/CampaignMod.SC2Mod"
+			"file": "mods/CampaignMod.SC2Mod",
+			"source":"https://github.com/danielthepirate/StarCraftPlus/blob/master/Build/StarCraftPlus.SC2Mod?raw=true"
 		}
 	],
 	"maps": [
 		{
 			"name":"Launcher",
 			"description":"Launcher for the campaign",
-			"file": "maps/Launcher.SC2Map"
+			"file": "maps/dummy/Launcher.SC2Map",
+			"source":"https://github.com/danielthepirate/StarCraftPlus/blob/master/Build/AXMechDepot.SC2Map?raw=true"
+			
 		},
 		{
 			"name":"Prologue",
 			"description":"Prologue map",
-			"file": "maps/Map01.SC2Map"
+			"file": "maps/dummy/Map01.SC2Map",
+			"source":"https://github.com/danielthepirate/StarCraftPlus/blob/master/Build/AXAscensionToAiur.SC2Map?raw=true"
 		}
 	]
 	
