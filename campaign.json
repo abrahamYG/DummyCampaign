@@ -27,7 +27,7 @@
 		{
 			"name":"Main Mod",
 			"description":"Launcher for the campaign",
-			"file": "mods/CampaignMod.SC2Mod",
+			"destination": "mods/CampaignMod.SC2Mod",
 			"source":"https://github.com/danielthepirate/StarCraftPlus/blob/master/Build/StarCraftPlus.SC2Mod?raw=true"
 		}
 	],
@@ -35,15 +35,19 @@
 		{
 			"name":"Launcher",
 			"description":"Launcher for the campaign",
-			"file": "maps/dummy/Launcher.SC2Map",
-			"source":"https://github.com/danielthepirate/StarCraftPlus/blob/master/Build/AXMechDepot.SC2Map?raw=true"
+			"destination": "maps/dummy/Launcher.SC2Map",
+			"source":"http://op74.net/antioch/ThoughtsInChaosMaps1.4.zip",
+			"sourceFormat": "zip",
+			"fileEntry":"ThoughtsInChaos/Antioch 2-9-5.SC2Map"
 			
 		},
 		{
 			"name":"Prologue",
 			"description":"Prologue map",
-			"file": "maps/dummy/Map01.SC2Map",
-			"source":"https://github.com/danielthepirate/StarCraftPlus/blob/master/Build/AXAscensionToAiur.SC2Map?raw=true"
+			"destination": "maps/dummy/Map01.SC2Map",
+			"source":"http://op74.net/antioch/ThoughtsInChaosMaps1.4.zip",
+			"sourceFormat": "zip",
+			"fileEntry":"ThoughtsInChaos/Antioch 1-9-5.SC2Map"
 		}
 	]
 	
